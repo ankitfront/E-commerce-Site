@@ -5,7 +5,7 @@ import Collection from './pages/Collection.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import Product from './pages/Product.jsx'
-import Cart from './pages/Cart.jsx'
+import cart from './pages/cart.jsx'
 import Login from './pages/Login.jsx'
 import Verify from './pages/Verify.jsx'
 import PlaceOrder from './pages/PlaceOrder.jsx'
@@ -27,7 +27,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/product/:productId" element={<Product />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/cart" element={<cart />} />
         <Route path="/login" element={<Login />} />
         <Route path="/Place-order" element={<PlaceOrder />} />
         <Route path="/orders" element={<Orders />} />
