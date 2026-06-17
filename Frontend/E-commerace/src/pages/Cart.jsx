@@ -4,7 +4,7 @@ import Title from "../components/Title"
 import { assets } from "../assets/admin_assets/frontend_assets/assets";
 import CartTotal from "../components/CartTotal";
 //import Title from "../components/Title";
-const cart = () => {
+const Cart = () => {
   const { products, currency, cartItems, updateQuantity, navigate} = useContext(ShopContext);
   const [cartData, setCartData] = useState([]);
 
@@ -95,9 +95,9 @@ const cart = () => {
             <button onClick={()=>navigate('/place-order')} className="bg-black text-white text-sm my-8 px-8 py-3">PROCEED TO CHECKOUT</button>
           </div>
         </div>
-      </div>
+      </div>  
     </div>
   ); 
 };
 
-export default cart;
+export default Cart;
