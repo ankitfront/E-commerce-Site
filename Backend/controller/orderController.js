@@ -13,6 +13,7 @@ const razorpayInstance = new razorpay({
 // Global variable for currency
 const currency = "inr";
 const deliveryCharges = 10;
+const frontend_URL = "https://e-commerce-site-frontend-fk2h.onrender.com/";
 
 const placeOrder = async (req, res) => {
   try {
