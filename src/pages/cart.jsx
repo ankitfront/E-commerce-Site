@@ -4,7 +4,7 @@ import Title from "../components/Title"
 import { assets } from "../assets/admin_assets/frontend_assets/assets";
 import CartTotal from "../components/CartTotal";
 //import Title from "../components/Title";
-const cart = () => {
+const Cart = () => {
   const { products, currency, cartItems, updateQuantity, navigate} = useContext(ShopContext);
   const [cartData, setCartData] = useState([]);
 
@@ -100,4 +100,4 @@ const cart = () => {
   ); 
 };
 
-export default cart;
+export default Cart;
