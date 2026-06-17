@@ -11,7 +11,7 @@ export const ShopContext = createContext();
 const ShopContextProvider = (props) => {
   const currency = "$";
   const delivery_fee = 10;
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = "https://e-commerce-site-backend-ijp4.onrender.com";
 
   const [search, setSearch] = useState("");
   const [showSearch, setShowSearch] = useState(false);
