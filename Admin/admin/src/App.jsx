@@ -8,7 +8,7 @@ import Orders from "./pages/Order";
 import Login from "./components/Login";
 import { ToastContainer } from "react-toastify";
 
-export const backend_URL = import.meta.env.VITE_BACKEND_URL
+export const backend_URL = "https://e-commerce-site-backend-ijp4.onrender.com"
 export const currency = "INR"
 
 const App = () => {
